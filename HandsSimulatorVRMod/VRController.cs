@@ -26,15 +26,6 @@ namespace HandsSimulatorVRMod
     }
     internal class VRController
     {
-        public enum ControllerButton: ulong
-        { 
-            MainButton = 7,
-            BackButton = 2,
-            Triger = 8589934592,
-            Grip = 4,
-            System = 1,
-            Stick = 4294967296
-        }
         public enum ControllerStatus { 
             FailedInit,
             SuccessInit
