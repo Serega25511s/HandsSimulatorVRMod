@@ -23,7 +23,6 @@ namespace HandsSimulatorVRMod.Patches {
         {
             if (vrController.controller.GetPressDown(SteamVR_Controller.ButtonMask.Trigger))
             {
-                //Triger
                 __instance.StartBendFinger(FingerType.Index);
             }
             else if (vrController.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
@@ -31,8 +30,7 @@ namespace HandsSimulatorVRMod.Patches {
                 __instance.StopBendFinger(FingerType.Index);
             }
             if (vrController.controller.GetPressDown(SteamVR_Controller.ButtonMask.ApplicationMenu))
-            {
-                //B/Y button   
+            {  
                 __instance.StartBendFinger(FingerType.Thumb);
             }
             else if (vrController.controller.GetPressUp(SteamVR_Controller.ButtonMask.ApplicationMenu))
@@ -41,7 +39,6 @@ namespace HandsSimulatorVRMod.Patches {
             }
             if (vrController.controller.GetPressDown(EVRButtonId.k_EButton_A))
             {
-                //A/X button
                 __instance.StartBendFinger(FingerType.Ring);
                 __instance.StartBendFinger(FingerType.Pinky);
             }
@@ -52,7 +49,6 @@ namespace HandsSimulatorVRMod.Patches {
             }
             if (vrController.controller.GetPressDown(SteamVR_Controller.ButtonMask.Grip))
             {
-                //grip button
                 __instance.StartBendFinger(FingerType.Middle);
             }
             else if (vrController.controller.GetPressUp(SteamVR_Controller.ButtonMask.Grip))
@@ -148,7 +144,6 @@ namespace HandsSimulatorVRMod.Patches {
         {
             if (InputSystem.leftController.controller.GetPressDown(SteamVR_Controller.ButtonMask.Touchpad))
             {
-                //stick button
                 OpenVR.System.ResetSeatedZeroPose();
                 OpenVR.Compositor.SetTrackingSpace(ETrackingUniverseOrigin.TrackingUniverseSeated);
             }
