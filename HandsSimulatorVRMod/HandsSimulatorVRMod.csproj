@@ -1,0 +1,216 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net35</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>F:\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp-firstpass">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-UnityScript">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\Assembly-UnityScript.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-UnityScript-firstpass">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\Assembly-UnityScript-firstpass.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx">
+          <HintPath>F:\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.dll</HintPath>
+        </Reference>
+        <Reference Include="Boo.Lang">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\Boo.Lang.dll</HintPath>
+        </Reference>
+        <Reference Include="ConditionalExpression">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\ConditionalExpression.dll</HintPath>
+        </Reference>
+        <Reference Include="iRobi">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\iRobi.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Security">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\Mono.Security.dll</HintPath>
+        </Reference>
+        <Reference Include="mscorlib">
+          <HintPath>D:\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\mscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="Photon3Unity3D">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\Photon3Unity3D.dll</HintPath>
+        </Reference>
+        <Reference Include="PlayMaker">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\PlayMaker.dll</HintPath>
+        </Reference>
+        <Reference Include="SALSA">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\SALSA.dll</HintPath>
+        </Reference>
+        <Reference Include="System">
+          <HintPath>D:\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\System.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Core">
+          <HintPath>D:\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\System.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AccessibilityModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AIModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AnimationModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ARModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AssetBundleModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AudioModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ClothModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ClusterInputModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ClusterRendererModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CrashReportingModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.DirectorModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.GameCenterModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.GridModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ImageConversionModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.IMGUIModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.InputModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.JSONSerializeModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.Networking">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.Networking.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ParticlesLegacyModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ParticleSystemModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.PerformanceReportingModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.Physics2DModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.PhysicsModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ScreenCaptureModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.SharedInternalsModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.SpatialTracking">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.SpriteMaskModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.SpriteShapeModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.StandardEvents">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.StandardEvents.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.StyleSheetsModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.TerrainModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.TerrainPhysicsModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.TextRenderingModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.TilemapModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.Timeline">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.Timeline.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UI.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UIElementsModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UIModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UNETModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UnityAnalyticsModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UnityConnectModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UnityWebRequestModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.VehiclesModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.VideoModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.VRModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.WebModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.WebModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.WindModule">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityScript.Lang">
+          <HintPath>I:\Luncher\Steam\steamapps\common\Hand Simulator\Hand Simulator_Data\Managed\UnityScript.Lang.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>
